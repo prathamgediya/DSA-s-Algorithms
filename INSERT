@@ -1,0 +1,15 @@
+(a, pos, n, val)
+
+- pos indicates position at which yiu want to inster element.
+- n indicates number of elementsin an array
+- val indicates value(element) to be inserted.
+  1. [Initializa counter] i = 0
+  2. [Move the elements one position down]
+        Repeat While(i>=pos)
+          (1) a[i+1] = a[i]
+          (2) i = i - 1
+  3. [Insert element]
+      A[i] = val
+  4. [Reset size of array]
+      n = n + 1
+  5. [Finished] & Exit

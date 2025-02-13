@@ -1,0 +1,11 @@
+(a, LB, UB)
+
+- a is an array
+- LB is Lower limit of array
+- UB is uper limit of array
+  1. [Intialize] i = LB
+  2. [perform traversal and increament counter]
+        While(i<=UB)
+            (1) Write a[i] or Read a[i]
+            (2) i = i + 1 
+  3. [Finished] & Exit

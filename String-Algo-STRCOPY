@@ -1,0 +1,16 @@
+* String Copy Operation
+
+STRCOPY :- (str1, str2)
+
+  Step 1: [ Initialization ]
+        Str1 = NULL
+        i = 0
+  Step 2: [ Read string str2]
+        Read (str2)
+  Step 3: [ Copy operation performed]
+        while(Str2[i] != NULL) Repeat
+              Str1[i] = Str2[i]
+              i = i + 1
+  Step 4: [ Print the string after copy operation performed]
+        print("str1")
+  Step 4: [ Finished ] & Exit.

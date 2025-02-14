@@ -1,0 +1,14 @@
+SEARCH :- ( a, n, x)
+
+- A is an array.
+- N indicates number of elements in array.
+- x indicates value (Elements) to be sreach.
+
+      1. [ Initialize counter ] Set i = 0
+      2. Repeat Step 03 and 04 for i = 0 to i < n
+      3. if a[i] = x, then jump to step 06
+      4. [ Increase Counterv] set i = i + 1
+      5. [ End of step 02 loop.]
+      6. Print x Found at i + 1 Position and go to step 08
+      7. Print x not found (if a[i] != x, after all the iteration of the above for loop.)
+      8. Stop.

@@ -1,4 +1,6 @@
-SEARCH :- ( a, n, x)
+Normal and Linear Search's Algorithms are sam-sam
+
+SEARCH :- ( a, n, x) 
 
 - A is an array.
 - N indicates number of elements in array.

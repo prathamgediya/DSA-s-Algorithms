@@ -1,0 +1,13 @@
+* String Lngth Operation
+
+LEN :- (str)
+
+Step 1: [ Initiazation ]
+    i = 0, l = 0
+Step 2: [ Read String ]
+    Read(str)
+Step 3: while(str[i] != NULL) Repeat
+    i = i + 1
+    l = l + 1
+Step 4: Print length of given string.
+Step 5: [ Finished ] & Exit.

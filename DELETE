@@ -1,1 +1,14 @@
-(a, pos, n, val)
+DELETE :- (a, pos, n, val)
+
+- a is an array.
+- pos indicates position at which you want to delete element.
+- n imdicates number of elements in an array.
+- val indicates value (elements) to be deleted.
+   1. [initialize counter] i=n
+   2. [Move the elements one position up] 
+        Repeat While (i<=n-1)
+            1. a[i] = a[i + 1]
+            2. i = i + 1
+   3. [Reset size of array]
+          n = n -1
+   4. [Finished] & Exit

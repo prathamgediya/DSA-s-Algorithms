@@ -1,4 +1,4 @@
-(a, pos, n, val)
+INSERT :- (a, pos, n, val)
 
 - pos indicates position at which yiu want to inster element.
 - n indicates number of elementsin an array

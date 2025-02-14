@@ -1,4 +1,4 @@
-(a, LB, UB)
+TRAVERSE :- (a, LB, UB)
 
 - a is an array
 - LB is Lower limit of array

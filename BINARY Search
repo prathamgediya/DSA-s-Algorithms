@@ -1,0 +1,22 @@
+BINARY :- ( a, x, x)
+
+- a is an array.
+- n indicates number of elements in an array.
+- x indicates value (element) to be search.
+
+    1. [ Initialize ] Low <- 0
+                        high <- n -1
+    2. [ Perform search ]
+          Repeat While low <= high
+                Repeat step 3 & 4
+    3. mid = ( low + high )/2;
+    4. if(num<a[mid]) 
+            then high = mid - 1
+        else
+            if(num>a[mid])
+                then low = mid + 1
+            else if(num=a[mid])    
+              -> Print element is found in the list and go to step 6.
+   5. if(low>high)
+        -> Print element is not found in the list and go to step 6.
+   6. [ Finished ] & Exit

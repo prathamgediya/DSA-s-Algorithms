@@ -1,6 +1,6 @@
 INSERT :- (a, pos, n, val)
 
-- pos indicates position at which yiu want to inster element.
+- pos indicates position at which you want to inster element.
 - n indicates number of elementsin an array
 - val indicates value(element) to be inserted.
   1. [Initializa counter] i = 0

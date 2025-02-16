@@ -1,0 +1,24 @@
+* Sub String Operation
+
+SUBSTR :- ( STR, pos, num)
+
+  Step 1: [ Initialization ]
+          i <- 0
+          j <- 0   
+          pos
+          num
+          substr = Null
+  Step 2: [ input the value ]
+          Read (str, pos, num)
+
+  Step 3: [ Copy the string Str to subject string]
+          i = pos
+          while(str[i] != 0 && num > 0) repeat
+              substr[j] = str[i]
+              i = i + 1
+              j = j + 1
+              num = num - 1
+  Step 4: [print sub string]
+          Print("substr")
+
+  Step 5: [ Finished ] & Exit

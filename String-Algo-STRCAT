@@ -1,0 +1,24 @@
+STRCAT :- (str1, str2, str3)
+
+  Step 1: [Initializatio]
+          srt3 = Null
+             i = 0
+             j = 0
+             k = 0
+
+  Step 2: [ Copy str1 string into str3]
+          While(str1[i] != NULL), Repeat
+                str3[k] = str1[i]
+                      i = i + 1
+                      k = k + 1
+
+  Step 3: [ Copy str2 string into str3]
+          While(str2[j] != NULL), Repeat
+                str3[k] = str2[i]
+                      j = j + 1
+                      k = k + 1
+
+  Step 4: [ Print the string after concatenation operation performed]
+              print("str3")
+
+  Step 5: [ Finished ] & Exit

@@ -1,0 +1,18 @@
+* Sring converting character into upper and lower case
+
+Algorithm : Upper_Case(s1, s2)
+
+  Step 1: [ Initialization ]
+          i = 0
+
+  Step 2: [ To Convert lower to upper case ]
+            While(s1[i] != '\0')
+              (i)     if(s1[i]>='a' && s1[i]<='z')
+                          s2[i] = s1 - 32
+              (ii)    i = i + 1
+              
+  Step 3: [ Print the upper case string ]
+            print("s2")
+            
+  Step 4: [ Finished ] & Exit
+          

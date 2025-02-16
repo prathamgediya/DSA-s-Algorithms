@@ -1,0 +1,15 @@
+* String Reverse Operation
+
+Reverse :- (str)
+
+  Step 1: [ Initialization ] 
+          i = 0
+
+  Step 2: [ Finding the length of the string ]
+          l = strlen(str)
+
+  Step 3: [ Store reverse string from original string]
+          for(i=l-1;i>=0;i--)
+                print("str")
+
+  Step 4: [Finished ] & Exit

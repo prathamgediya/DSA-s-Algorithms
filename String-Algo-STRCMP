@@ -1,0 +1,24 @@
+* String Comparison Operation
+
+STRCMP :- (str1, str2)
+
+  Step 1: [ Initialization]
+          i = 0, c = 0
+
+  Step 2: [ read two string ]
+              Read(str1)
+              Read(str2)
+
+  Step 3: [ compare teo string character ny character]
+            Repeat while(Str1[i] != '\0' || (Str2[i] != '\0'))
+                          if(str1[i] != str2[i])
+                                c++
+                            i++
+
+  Step 4: if(c==0)
+          print string are euqal
+
+  Step 5: else
+          print strings are not equal
+
+  Step 5: [ Finished ] & Exit

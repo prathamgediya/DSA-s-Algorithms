@@ -1,0 +1,18 @@
+*  String Appending Operation
+
+  Step 1: [ Initialization ]
+          i = 0
+          l = 0
+
+  Step 2: [ To reach at end of text ] 
+          For(i=0;str1[i] != '\0';i++)
+              l = l + 1
+
+  Step 3: [ Append a string ]
+            Fro(i=0;str2[i] != '\0';i++)
+                str1[l + i - 1] = str2[i]
+
+  Step 4:  [ Print the string after appending]
+            print(""str1)
+
+  Step 5: [ Finished ] & Exit

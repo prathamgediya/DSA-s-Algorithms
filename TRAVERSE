@@ -1,3 +1,6 @@
+* Access each element of the data structure and doing some processing over
+the data.
+
 TRAVERSE :- (a, LB, UB)
 
 - a is an array
